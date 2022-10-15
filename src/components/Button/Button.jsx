@@ -1,7 +1,7 @@
 import PropTypes from 'prop-types';
 import styles from './Button.module.css';
 
-const Button = ({ type, title, onClick }) => {
+const Button = ({ type,title, onClick }) => {
   const { button } = styles;
 
   return (
@@ -16,4 +16,4 @@ Button.propTypes = {
   onClick: PropTypes.func,
   type: PropTypes.string
 };
-export default Button;
+export default Button
